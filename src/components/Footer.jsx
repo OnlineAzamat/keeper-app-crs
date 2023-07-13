@@ -1,7 +1,9 @@
 const Footer = () => {
+  const date = new Date().getFullYear()
+
   return (
     <footer>
-      <p>Copyright <b>Reserved</b> 2023</p>
+      <p>Copyright <b>Reserved</b> {date}</p>
     </footer>
   )
 }
