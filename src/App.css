@@ -1,0 +1,25 @@
+/* Header */
+header {
+  padding: 1rem 2rem;
+  background-color: yellow;
+}
+
+/* Note */
+.note {
+  margin: 1rem 2rem 0.5rem;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 3px;
+  max-width: 450px;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
